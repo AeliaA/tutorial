@@ -1,0 +1,189 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Adobe coloor cc\
+78614Alia\
+--------------\
+http://minus.nz/articles/setting-up-wordpress-cms-on-localhost/\
+\
+https://color.adobe.com/library/4acf123d-38d0-4f41-93af-1747b256f00e/theme/4c49f925-e2d6-4955-855b-8e77d84b4097/\
+black -heading\
+blue -subhead\
+white -header, footer\
+cream -bkg\
+dpink -extras\
+---------------\
+\
+Tutorial:\
+\
+Home Page:\
+Section Top-----------------\
+Title/WebsiteName/Brand-Tutorials110\
+\
+Pages-Home, Tutorials\
+\
+Section Bottom--------------\
+\
+Step-by-step guide to set-up a Wordpress website locally in a MAC OS\
+\
+by Aelia 			Date\
+\
+Share\
+\
+Tutorial Details:\
+\
+Programs Needed: XAMPP, Wordpress, Browser (Google Chrome), Sublime Text\
+Difficulty Level: Advanced\
+\
+<IMG25>\
+\
+\
+Step 1:\
+To begin, go to the webpage 'https://www.apachefriends.org/index.html'. You will see a 'green' download arrow pointing to the latest versions of XAMPP for different operating systems, as seen in the picture. \
+\
+<IMG 1>\
+\
+You can choose from the following:\
+\
+XAMPP for Windows - v5.6.14 (PHP 5.6.14)\
+XAMPP for Linux - v5.6.14 (PHP 5.6.14)\
+XAMPP for OS X - v5.6.14 (PHP 5.6.14) \
+\
+Click on the link of the version you wish to download. In this tutorial, we will be downloading XAMPP for Mac OS. Once you click on the link, you will get a popup window, as seen in the picture. This will let you install the program on your desktop. You can choose to save the file on desktop or downloads folder, or wherever you wish. You can use the default file name 'xampp-osx-5.6.14-0-installer' or name it differently.\
+\
+<IMG2>\
+\
+Step 2:\
+Once the file is saved in the desktop/downloads/documents folder, open the DMG-Image. Double-click on the image to start the installation process. XAMPP is now installed below the /Applications/XAMPP directory.\
+\
+<IMG5>\
+\
+Step 3:\
+After it is installed, you can go to the XAMPP folder under the Applications tab. In that folder, you will find a 'xampp_start.sh' file, as shown below. Click on it in order to start your local server. \
+\
+<IMG3>\
+\
+Once you click, the server starts running, and you will get a window as shown below:\
+\
+<IMG4>\
+\
+Step 4:\
+The next step is to check if the localhost is activated. For this you need to open your default browser, Google Chrome for this example. Then type in the URL address field 'localhost'. Once there, you will see your browser window will show as follows:\
+\
+<IMG6>\
+\
+This means that your localhost is running and is in active state. The folders that you can see in the browser window are the individual projects that are saved in your local server folder. If you have no projects done already, this area will be empty.\
+\
+Step 5:\
+Now you will have to go to another webpage 'https://wordpress.org/' to get 'Wordpress' zip file. On this page, as seen in the picture, you will see a 'blue' download button to the latest Wordpress zip file. Click on it. \
+\
+<IMG7>\
+\
+This will again open a window to let you save the zip file in your desired location, with your desired name. Go with the default name 'wordpress-4.3.1.zip', and save it in the downloads folder/desktop/documents folder.\
+\
+<IMG8>\
+\
+Step 6:\
+Once the file is saved in the desktop/downloads/documents folder, you can click on it to unzip it. Once it is unzipped, it is ready to use. Now open it and copy all the files inside that folder, and then paste them in a new folder 'tutorial'. Now save this 'tutorial' folder in 'XAMPP>htdocs'. We are doing this to get all the Wordpress content in your project folder, so as to make your project work. Saving in htdocs will let the XAMPP server run the project.\
+\
+<IMG9>\
+\
+Step 7:\
+Next you have to create a database that will link to your website. For this you need to go to the webpage 'localhost/phpMyAdmin' that will allow you to create a new database. Once in the 'PHPMyAdmin' interface, you can see a sidebar, as shown in the picture. \
+\
+<IMG11>\
+\
+In the sidebar, click on 'New' to be able to create a new database. You will now see the new database creation interface. Under the heading 'Create database', you can see a field (textbox) that will let you enter your database name. Type in a name of your choice, 'tutorialdb' for example. Leave the other field with the selection 'Collation' as it is. And then press the 'Create' button. \
+\
+<IMG12>\
+\
+Once this is done, you will have a new database created, that will be shown in the sidebar. This is the database that will be linked to your website. You can come back to PHPMYAdmin interface to make further modifications. Do remember to save the database name for later use.\
+\
+<IMG13>\
+\
+<IMG14>\
+\
+Step 8:\
+Now you will have to go to another webpage 'http://www.sublimetext.com/3' to get 'Sublime Text' editor. On this page, as seen in the picture, you will see a download link of Sublime Text for Mac OS. Click on it. \
+\
+<IMG15>\
+\
+This will again open a window to let you save the zip file in your desired location, with your desired name. Go with the default name 'Sublime Text Build 3083', and save it in the downloads folder/desktop/documents folder.\
+\
+<IMG16>\
+\
+Step 9:\
+Once the file is saved in the desktop/downloads/documents folder, you can click on it to install it. \
+\
+<IMG19>\
+\
+Step 10:\
+Now go to Applications > XAMPP > htdocs > tutorial. Rename the 'wp-config-sample.php' file to 'wp-config.php'. Open the wp-config.php file, and include 'define('FS_METHOD','direct');' in the code, as shown. Also add database name, user name and password in their respective places as follows:\
+\
+Database Name: tutorialdb\
+User Name: root\
+Password: leave this field blank because you will be running it locally for now, and this will not require any protection, as it is on your local computer that cannot be visited by the live visitors.\
+\
+<IMG10>\
+\
+Now save the file.\
+\
+Step 11:\
+Follow the path as given: 'htdocs > tutorial > wp-content. This is the area that will contain the files that you will be working on. Leave all the other files and folder as they are in order to save from corrupting them. Now start giving file permissions to all the folders in the path from 'htdocs > test > wp-content > plugins and themes. So basically, you will be giving permissions to each of the 5 folders (htdocs, tutorial, wp-content, plugins, themes). You will have to give both 'read' and 'write' permissions to all the users available, and that will include yourself, admin, and everyone. For this right-click on the folder, then select 'Get Info', and then assign permissions. The permissions are to be given as shown in the picture:\
+\
+<IMG17>\
+\
+<IMG18>\
+\
+Step 12: Now you have to go to the browser, and type in 'localhost/tutorial' in the URL address bar. This will bring you to a screen as shown below:\
+\
+<IMG20>\
+\
+Select the language and then press 'Continue', to continue to the next screen as shown below:\
+\
+<IMG21>\
+\
+Step 13:\
+Once you are here, you will have to enter in your new website details. Do remember to save them for later use. Enter the details as follows:\
+\
+Site Title: Tutorial (Enter your desired site title, that can be changed later.)\
+Username: aelia\
+Password: ***** (Create a desired password or leave it blank because you will be running it locally for now, and this will not require any protection, as it is on your local computer that cannot be visited by the live visitors.)\
+\
+Confirm the password. \
+Confirm use of weak password.\
+Your E-mail: (Type your email id here)	\
+Privacy:	 Allow search engines to index this site\
+\
+Note: Make sure you save all the details in a safe place for later use.\
+\
+Once you are done your details should look as follows:\
+\
+<IMG22>\
+\
+Now click on 'Install Wordpress'. This will install the Wordpress for you, and you will get to the page as shown:\
+\
+<IMG23>\
+\
+Step 14: Now go to the address 'http://localhost/tutorial/wp-login.php' to get to the Wordpress login interface of your website. You will get the screen as in the picture. Enter your username and password, and click on 'Log in'. \
+\
+<IMG24>\
+\
+You will now be on the Dashboard of your Wordpress Interface. This is the area from where you will be developing the website from scratch.\
+\
+<IMG25>\
+\
+Conclusion:\
+I hope this tutorial will help everyone set up a new wordpress-based website in an easy manner. As you saw, many of the steps shown here are supported with an image; and I hope they will make your set-up process easier than ever.\
+\
+<IMG25>\
+\
+Comments:\
+\
+\
+\
+\
+}

@@ -1,0 +1,180 @@
+/*
+Theme Name: articles-template
+Theme URI: http://www.yourdomainname.com
+Description: Wordpress template for theming.
+Author: Aelia
+Author URI: http://www.yourdomainname.com
+Version: 1.0
+
+Tags: 
+
+License: MIT  
+
+General comments (optional).
+*/
+
+/*For image to be responsive, just put the code below for all images*/
+img{
+    max-width:100%;
+  }
+body{
+	background-color: #eafeea;
+/*	margin: 70px 50px 25px 60px;*/
+}
+#jumbobkg{
+	/*background-image: url(banner.jpg);*/
+	/*background-image: url(http://bripell.com/imagens/fundo_linhas.jpg);*/
+	background-color: #ffffe5;
+	border: 3px solid #006400;
+	border-radius: 15px;
+	margin: 5px 8px 20px 8px;
+	padding: 25px 10px 35px 10px;
+/*	min-height: 150px;*/
+}
+.start{
+text-align: center;
+}
+.end{
+display: flex;
+justify-content: center;
+}
+header{
+	background-color: white;
+	margin: 60px 50px 20px 50px;
+	padding: 15px 25px 25px 25px;
+
+}
+footer{
+	background-color: white;
+	margin: 0 50px 20px 50px;
+	padding: 15px 25px 25px 25px;
+}
+.homepg{
+	margin: 0 0 0 20px;
+}
+h1{
+	color:grey;
+	font-size: 32px;
+}
+h2{
+	color:#006400;
+	font-size: 24px;
+	margin-left: 0px;
+}
+#just{
+	color:#006400;
+	font-size: 24px;
+	margin-left: 0;
+}
+#sech2 {
+	margin-left: 65px;
+	padding: 0px;
+}
+.thumbnail1{
+
+}
+.excerpt1{
+
+}
+.wrapper{
+	margin: 0 0 0 45px;
+}
+h3{
+	color: #006400;
+	font-size: 24px;
+}
+h4{
+	font-size: 22px;
+	color:#85b4f2;
+	font-weight: bold;
+}
+p{
+	font-size:18px;
+	line-height: 2;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+a{
+
+}
+.mynav{
+	font-size:28px; 
+	margin: 0 10px 5px 32px;
+}
+
+.sideheading{
+	font-size: 20px;
+	font-weight: 600;
+	color: #993f6c;
+}
+.note{
+	text-decoration: underline;
+}
+img{
+	border-radius: 15px;
+	border-style: solid;
+	border-color: grey;
+}
+.myexcerpt{
+	margin: 25px;
+}
+.highlighted{
+	color:red;
+}
+.finalimg{
+	border: 3px solid #006400;
+	border-radius: 15px;
+}
+.mywidget{
+}
+.mywidget h3{
+	color: #006400;
+	font-size: 24px;
+}
+.mywidget ul{
+	list-style-type: none;
+	line-height: 1.8;
+	padding: 5px 0 0 0;
+	text-align: center justified;
+}
+.mywidget li{
+	padding: 10px 10px 10px 0;
+}
+
+.mywidget a{
+	color: #337ab7;
+	font-size: 18px;
+}
+.share {
+	list-style-type: none;
+	line-height: 1.8;
+	padding:0;
+	margin: 25px 0 30px 0;
+}
+.share a{
+	color: #337ab7;
+	font-size: 18px;
+}
+@media (min-width: 600px) {
+h2{
+	font-size: 26px;
+	padding: 0 0 15px 0;
+}
+}
+@media (min-width: 900px) {
+h2{
+	font-size: 27px;
+}
+}
+@media (min-width: 1215px) {
+h2{
+	font-size: 28px;
+}
+}
+
+
+
+
+
+
+
